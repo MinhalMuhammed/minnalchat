@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:minnal_chat/view/bottom.dart';
+>>>>>>> shadhin
 import 'package:minnal_chat/view/home.dart';
 
 void main() {
@@ -12,13 +16,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+<<<<<<< HEAD
       
+=======
+>>>>>>> shadhin
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        
       ),
+<<<<<<< HEAD
       home:HomePage()
     );
   }
 }
+=======
+      home:NavBarbottom()
+    );
+  }
+}
+
+
+>>>>>>> shadhin
