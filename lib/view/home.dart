@@ -10,11 +10,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
-    return const Placeholder();
-  }
-}
-=======
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
     return NestedScrollView(
@@ -96,4 +91,3 @@ class _HomePageState extends State<HomePage> {
         ));
   }
 }
->>>>>>> shadhin

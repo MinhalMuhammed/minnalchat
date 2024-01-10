@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-=======
 import 'package:minnal_chat/view/bottom.dart';
->>>>>>> shadhin
 import 'package:minnal_chat/view/home.dart';
+import 'package:minnal_chat/view/loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,24 +17,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-<<<<<<< HEAD
       
-=======
->>>>>>> shadhin
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         
       ),
-<<<<<<< HEAD
-      home:HomePage()
+      home:LoginPage()
     );
   }
 }
-=======
-      home:NavBarbottom()
-    );
-  }
-}
+     
 
-
->>>>>>> shadhin
