@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pinput/pinput.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -96,8 +97,20 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         ),
                       ),
-                      if (otpinput) 
-                      
+                      SizedBox(
+                        height: screenHeight * 0.020,
+                      ),
+                      if (otpinput)
+                        SizedBox(
+                          width: screenWidth * 0.7,
+                          height: screenHeight * 0.060,
+                          child: Pinput(
+                            length: 6,
+                          ),
+                        ),
+                      SizedBox(
+                        height: screenHeight * 0.020,
+                      ),
                       SizedBox(
                           width: screenWidth * 0.6,
                           height: screenHeight * 0.060,
